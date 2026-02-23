@@ -1,4 +1,4 @@
-.PHONEY: clean all
+.PHONY: clean all
 
 all: mov movend movex
 
