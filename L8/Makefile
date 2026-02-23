@@ -1,3 +1,5 @@
+.PHONEY: clean all
+
 all: mov movend movex
 
 #mov: mov.o
