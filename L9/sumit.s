@@ -22,7 +22,7 @@ loop_start:
 	inc  rdi                               # i=i+1
 	jmp   loop_start                       # go back to the start of the loop
 loop_done:
-	jmp end_sum                                   # don't know where to go next
+	int3                                   # don't know where to go next
 	# give up and "trap" to the debugger
 
 	
