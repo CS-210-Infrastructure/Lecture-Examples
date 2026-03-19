@@ -1,0 +1,5 @@
+hello.i: hello.c
+	gcc hello.c -E -o hello.i
+
+sumit.s: sumit.c
+	gcc -fno-inline -fno-stack-protector -fno-pic -static -Werror -fcf-protection=none -fno-asynchronous-unwind-tables -O -S -masm=intel csumit.c -o sumit.s
